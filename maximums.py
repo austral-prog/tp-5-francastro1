@@ -2,8 +2,8 @@ def max_of_two(x, y):
     """Given x and y, that are 2 numbers, return the biggest number."""
     if x>y:
         return x 
-    else: y>x 
-    return y
+    elif y>x: 
+        return y
 maxtwo = max_of_two(2,-1)
 print(maxtwo)
 
@@ -14,7 +14,7 @@ def max_of_three(x, y, z):
         return x 
     elif y>x and y>z:
         return y 
-    else: z>x and z>x 
-    return z
+    elif z>x and z>x: 
+        return z
 maxthree = max_of_three(3,7,-8)
 print(maxthree
